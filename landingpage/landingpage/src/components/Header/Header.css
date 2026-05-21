@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .logo{
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow(0 0 4px #999797);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo img{
+    width: 300%;
+    height: 200%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    font-weight: bold;
+    font-size: .9rem;
+    color: #000;
+    transition: all .3s linear;
+}
+
+nav ul li a:hover{
+    color: #8f8f8f;
+}
+
+.social-icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons,
+.youtube,
+.instagram,
+.facebook,
+.linkedin {
+    color: #000;
+    font-size: 1.2rem;
+    transition: all .5s linear;
+}
+
+.social-icons,
+.youtube:hover,
+.instagram,:hover
+.facebook,:hover
+.linkedin:hover {
+    transform: scale(1.1);
+}
